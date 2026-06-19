@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://api.tvmaze/search/shows";
+const API_URL = "https://api.tvmaze.com/search/shows";
 
 export const searchShows = async (query) => {
     const response = 
