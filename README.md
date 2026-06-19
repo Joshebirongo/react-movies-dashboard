@@ -1,16 +1,61 @@
-# React + Vite
+# React Movies Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React.js single-page application that allows users to discover and explore TV shows using data from the TVMaze API. The project demonstrates core React concepts including component-based architecture, state management, API consumption, client-side routing, reusable components, and responsive UI design.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Search TV shows in real time
+* Browse shows in a responsive card carousel
+* View detailed information for each show
+* Dynamic routing with React Router
+* Loading and error state handling
+* Responsive and modern user interface
+* Reusable React components
+* API integration with Axios
 
-## React Compiler
+## Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* React Router DOM
+* Axios
+* Bootstrap 5
+* CSS3
+* TVMaze API
 
-## Expanding the ESLint configuration
+## Learning Objectives
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project is designed to help students practice:
+
+* Functional Components
+* JSX
+* Props
+* State Management with `useState`
+* Side Effects with `useEffect`
+* Event Handling
+* Conditional Rendering
+* Rendering Lists with `.map()`
+* API Consumption
+* Dynamic Routing
+* Responsive Design
+* Component Reusability
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Open your browser and navigate to:
+
+```text
+http://localhost:5173
+```
+
+## API
+
+This project uses the public TVMaze API:
+
+https://api.tvmaze.com
+
+No API key is required.

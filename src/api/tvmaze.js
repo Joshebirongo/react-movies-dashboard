@@ -1,9 +1,14 @@
 import axios from "axios";
 
-const API_URL = "https://api.tvmaze.com/search/shows";
+const BASE_URL = "https://api.tvmaze.com";
 
 export const searchShows = async (query) => {
     const response = 
-        await axios.get(`${API_URL}?q=${query}`)
+        await axios.get(`${BASE_URL}/search/shows?q=${query}`)
+    return response.data;
+};
+
+export const getShowId = async (id) => {
+    const response = await axios.get(`${BASE_URL}/shows/${id}`);
     return response.data;
 };
