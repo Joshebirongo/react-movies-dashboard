@@ -3,21 +3,26 @@
     margin: auto;
     padding: 40px;
 }
-.nav-link{
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.813);
-    font-weight: bold;
-    background-color: rgb(33, 91, 216);
-    padding: 8px 12px;
-    border-radius: 25px;
-    transition: 0.3s;
-    margin: 10px 0px;
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    gap: 10px;
+}
+.nav-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.813);
+  font-weight: bold;
+  background-color: #139cc2d1;;
+  padding: 8px 12px;
+  border-radius: 25px;
+  transition: 0.3s;
+  margin: 10px 0px;
 }
 
-.nav-link :hover {
-     background-color: #d2dcf1;
-    color: #111;
-    transform: scale(1.05);;
+.nav-link:hover {
+  background-color: #d2dcf1;
+  color: #111;
+  transform: scale(1.05);;
 }
 
 .my-card {

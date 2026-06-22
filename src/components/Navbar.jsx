@@ -6,10 +6,12 @@ export default function Navbar() {
                 <span className="navbar-brand">
                     React Movies Dashboard
                 </span>
+                <nav className="navbar">
+                    <Link to="/" className="nav-link"> Home</Link>
                     <Link to="/about" className="nav-link">
                         About
                     </Link>
-                
+                </nav>
             </div>
         </nav>
     );
