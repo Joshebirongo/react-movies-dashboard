@@ -1,0 +1,30 @@
+.about-page {
+    max-width: 1400px;
+    margin: auto;
+    padding: 40px;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.813);
+    font-weight: bold;
+    background-color: rgb(33, 91, 216);
+    padding: 8px 12px;
+    border-radius: 25px;
+    transition: 0.3s;
+    margin: 10px 0px;
+}
+
+.nav-link :hover {
+     background-color: #d2dcf1;
+    color: #111;
+    transform: scale(1.05);;
+}
+
+.my-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.my-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
