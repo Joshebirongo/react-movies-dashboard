@@ -7,6 +7,7 @@ import AppRoutes from "./routes/AppRoutes";
 // Import the CSS styles
 import "./styles/Dashboard.css";
 import "./styles/Details.css";
+import "./styles/About.css";
 export default function App() {
     return (
         <BrowserRouter>
