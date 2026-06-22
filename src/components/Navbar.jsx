@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Navbar() {
     return (
         <nav className="navbar navbar-dark bg-dark">
@@ -5,6 +6,10 @@ export default function Navbar() {
                 <span className="navbar-brand">
                     React Movies Dashboard
                 </span>
+                    <Link to="/about" className="nav-link">
+                        About
+                    </Link>
+                
             </div>
         </nav>
     );
